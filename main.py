@@ -27,7 +27,7 @@ def guess():
                         print(minejums)
                         pygame.draw.rect(screen, gray, (0, 0, 600, 100))
                         guesses.append(minejums)
-                        break
+                        return
                         
                     else: 
                         warning = w_font.render("Nepietiekami daudz burtu", True, black)
@@ -104,8 +104,9 @@ input_rect = pygame.Rect(100, 95, 225, 72)
 
 #print(guess)
 
+
+#main()
 surface1()
-main()
 print("zaxzavxhbdjsas")
 
 
